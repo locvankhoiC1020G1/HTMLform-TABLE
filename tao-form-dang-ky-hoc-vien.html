@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form đăng ký học viên</title>
+</head>
+<body>
+<style>
+    table {
+        background-color: darksalmon
+    }
+
+    #dangkyhocvien {
+        color: blue;
+        background-color: mediumspringgreen;
+    }
+</style>
+<form>
+    <table>
+        <tr>
+            <td colspan="3" id="dangkyhocvien">
+                <trong>ĐĂNG KÝ HỌC VIÊN</trong>
+            </td>
+
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <td colspan="2"><input type="text" name="" id="hoten"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td><input type="date" name="" id=""></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td><input type="radio" name="gioitinh" id="male">Nam</td>
+            <td style="text-align: left"><input type="radio" name="gioitinh" id="female">Nữ</td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td colspan="2"><input type="text" name="" id="diachi"></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td colspan="2">
+                <select name="lophoc" id="lophoc">
+                    <option>- Chọn lớp-</option>
+                    <option value="lop1">Lớp 1</option>
+                    <option value="lop2">Lớp 2</option>
+                    <option value="lop3">Lớp 3</option>
+                    <option value="lop4">Lớp 4</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td colspan="2"><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td> Điện THoại</td>
+            <td colspan="2"><input type="text" name="dienthoai" id="sdt"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Đăng ký"></td>
+            <td><input type="reset" value="NHập lại"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
